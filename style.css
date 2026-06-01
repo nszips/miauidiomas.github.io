@@ -1,0 +1,231 @@
+body {
+  margin: 0px;                                                                            /* espacio exterior de la pagina */
+  font-family: Arial, sans-serif;                                                         /* tipo de letra */
+/*  background-color: rgb(0, 0, 0);                                                       color de fondo general */
+  color: rgb(0, 0, 0);                                                                  /* color base del texto */
+}
+
+.hero {
+  min-height: 100vh;                                                                      /* altura de la portada */
+/* background: blue;                                                                        *fondo normal*/
+  background: linear-gradient(135deg, rgb(255, 230, 0), rgb(248, 255, 206));         /* fondo degradado */
+  color: rgb(0, 0, 0); 
+                                 
+}
+
+/*
+.vocabulario p {
+  margin-bottom: 250px;                                                                    espacio debajo de cada palabra 
+}
+*/
+
+/*
+.hero {
+  padding-left: 40px;                                                                     espacio interno de izquierda hacia derecha
+  padding-top: 20px;                                                                      espacio interno arriba haiaabajo                                  
+}
+*/
+
+/* IMAGENES TODO */
+
+/*Imagen INDEX */
+
+.miango {
+  width: 565px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  padding-left: 40px;                                                                     /*espacio interno de izquierda hacia derecha*/
+  padding-top: 20px;   
+  display: block;
+}
+
+/*Imagenes PRINCIPIANTE */
+
+.hola {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */
+  width: 120px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 275px;                                                                            /* */
+  top: 78px;                                                                             /*espacio interno de izquierda hacia derecha*/                                                                     /*espacio interno arriba*/ 
+}
+
+.BuenosDías {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 120px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 225px;                                                                           /* */
+  top: 185px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.BuenasTardes {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 120px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 425px;                                                                           /* */
+  top: 260px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.BuenasNoches {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 120px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 440px;                                                                           /* */
+  top: 370px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.Bienvenido {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 120px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 775px;                                                                           /* */
+  top: 450px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+/* Imagenes INTERMEDIO */
+
+.PasadoSimple {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 380px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 600px;                                                                           /* */
+  top: 70px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.HeTerminadoMiTarea {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 180px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 500px;                                                                           /* */
+  top: 280px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.DeberíaEstudiarTodosLosDias {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 200px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 400px;                                                                           /* */
+  top: 575px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.MiCasaEsMasGrandeQueLaTuya {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 400px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 400px;                                                                           /* */
+  top: 825px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.MeDespiertoALas6 {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 200px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 570px;                                                                           /* */
+  top: 1035px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+/* Imagenes AVANZADO */
+
+.HabreTerminadoElProyectoParaMañana {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 190px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 550px;                                                                           /* */
+  top: 78px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.ElLibroFueEscritoPorGabrielGarciaMarquez {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 180px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 480px;                                                                           /* */
+  top: 335px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.SiTuvieraDineroViajariaPorElMundo {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 175px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 455px;                                                                           /* */
+  top: 550px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.EllaDijoQueEstabaCansada {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 170px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 440px;                                                                           /* */
+  top: 820px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+.SinEmbargo {
+  position: absolute;                                                                     /* la imagen flota y ya no empuja el texto */    
+  width: 250px;                                                                           /* ancho de la imagen */
+  height: auto;                                                                           /* mantiene la proporcion */
+  left: 600px;                                                                           /* */ 
+  top: 1070px;                                                                              /*espacio interno arriba haiaabajo*/
+}
+
+h1 {
+  margin:10px;
+  color: rgb(255, 238, 0)
+}
+
+h1 {
+  border: 5px solid rgb(255, 255, 255);                                                 /* borde del cuadro */
+  border-radius: 20px;                                                                    /* redondea las esquinas */
+  background-color: rgb(0, 0, 0);                                                       /* relleno del cuadro */
+  padding: 10px 20px;                                                                     /* espacio entre texto y borde */
+  display: inline-block;                                                                  /* hace que el cuadro mida solo lo que ocupa el texto */
+}
+
+a {
+  color: rgb(0, 0, 0);              /* color del link */
+  text-decoration: none;     /* quita el subrayado */
+}
+
+/* 
+.hero {
+  padding-top: 80px;       espacio interno arriba 
+  padding-right: 40px;     espacio interno a la derecha 
+  padding-bottom: 80px;    espacio interno abajo 
+  padding-left: 40px;      espacio interno a la izquierda
+}
+*/
+
+
+/* 
+.menu {
+  margin: 0;                 /* quita espacio exterior del titulo 
+  font-size: 28px;                  tamano del titulo del menu 
+  color: white;                      color del titulo del menu 
+}
+*/
+
+/*
+.hero-content {
+  max-width: 720px;                  ancho maximo del contenido 
+  padding: 100px 48px;               espacio interno 
+}
+*/
+
+/*
+.tag {
+  font-weight: bold;                texto grueso 
+  text-transform: uppercase;        convierte texto a MAYUSCULAS/
+  letter-spacing: 2px;              espacio entre letras 
+  color: yellow;                    color del texto pequeno/
+  font-size: 14px;                  tamano del texto pequeno 
+}
+*/
+
+/*
+ .button {
+  display: inline-block;           permite darle tamano como boton 
+  margin-top: 20px;                espacio arriba 
+  padding: 14px 22px;              espacio interno 
+  background-color: green;         color de fondo del boton 
+  color: white;                    color del texto del boton 
+  border-radius: 8px;              redondeo de esquinas 
+  text-decoration: none;           quita linea debajo del enlace 
+  font-weight: bold;               texto grueso
+}
+*/
